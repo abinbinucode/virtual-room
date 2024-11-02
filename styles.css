@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #87CEEB; /* Sky blue */
+}
+
+#roomToggleButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.room {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    background-color: #FFD700; /* Gold color for the room */
+    border: 2px solid #8B4513; /* Brown border */
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.room-name {
+    position: absolute;
+    top: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #8B4513;
+    font-weight: bold;
+}
+
+.temperature-box {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    background-color: #f0f0f0; /* Light gray */
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    border: 2px solid #000; /* Black border */
+    text-align: center;
+}
+
+.ac-unit {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    background-color: #f0f0f0; /* Light gray */
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    border: 2px solid #000; /* Black border */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ac-display {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.ac-controls {
+    display: flex;
+    align-items: center;
+}
+
+.ac-slider {
+    width: 100px;
+    margin: 0 10px; /* Add margin between buttons and slider */
+}
+
+.ac-button {
+    background-color: #008CBA; /* Blue button */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1.2rem; /* Increase font size */
+    width: 40px; /* Fixed width */
+    height: 40px; /* Fixed height for a square button */
+}
+
+.ac-button:hover {
+    background-color: #005f73; /* Darker blue on hover */
+}
+
+.cat-box {
+    position: absolute;
+    top: 10px; /* Moved to the top */
+    right: 10px; /* Moved to the right side */
+    background-color: #f9c7d8; /* Light pink */
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #000; /* Black border */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    position: absolute;
+    top: 100px; /* Positioned below temperature display */
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    color: #000;
+}
+
+.history-box {
+    position: absolute;
+    bottom: 10px; /* Positioned at the bottom */
+    right: 10px; /* Move to right side */
+    background-color: #f0f0f0; /* Light gray */
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    border: 2px solid #000; /* Black border */
+    text-align: center;
+}
+
+.history {
+    font-size: 0.8rem;
+    max-height: 100px;
+    overflow-y: auto; /* Allow scrolling */
+}
+
+.delete-history-button {
+    background-color: #f44336; /* Red button */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.cat-report-box {
+    position: absolute;
+    bottom: 10px; /* Positioned at the bottom */
+    left: 10px; /* Moved to the bottom left corner */
+    background-color: #e0f7fa; /* Light cyan */
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #000; /* Black border */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cat-report {
+    font-size: 0.8rem;
+    display: none; /* Hidden by default */
+}
+
+.meow-message {
+    position: absolute;
+    top: 120px; /* Position under the cat */
+    right: 10px; /* Align with cat box */
+    font-size: 1rem;
+    color: #000;
+}
+

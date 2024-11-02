@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Virtual Room</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="roomToggleButton" onclick="toggleRoom()">Open Room</button>
+    <div id="room" class="room" style="display: none;">
+        <div class="room-name">My Room</div>
+
+        <div class="temperature-box">
+            <div id="temperatureDisplay" class="ac-display">Temperature: 20 °C</div>
+        </div>
+
+        <div class="ac-unit">
+            <div class="ac-controls">
+                <button class="ac-button" onclick="increaseTemperature()">+</button>
+                <input type="range" class="ac-slider" min="10" max="30" value="20" onchange="setTemperature(this.value)">
+                <button class="ac-button" onclick="decreaseTemperature()">-</button>
+            </div>
+        </div>
+
+        <div id="catEmoji" class="cat-box" onclick="displayMeowMessage()">🐱</div>
+        <div id="meowMessage" class="meow-message"></div> <!-- For displaying "meow" message -->
+
+        <div id="catReportBox" class="cat-report-box">
+            <button onclick="displayCatReport()">Cat Report</button>
+            <div id="catReport" class="cat-report"></div>
+        </div>
+
+        <div id="message" class="message"></div> <!-- For temperature change messages -->
+
+        <div class="history-box">
+            <button class="delete-history-button" onclick="deleteHistory()">Delete History</button>
+            <div id="history" class="history"></div>
+        </div>
+        <audio id="meowSound" src="meow.mp3" preload="auto"></audio>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
