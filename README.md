@@ -35,7 +35,7 @@ For Software:
 # Installation
 Installation Clone the repository and open index.html in a browser:
 
-git clone https://github.com/FelineFanatics/CatControlCompanion.git
+git clone https://github.com/abinbonu'team/virtual room.git
 cd CatControlCompanion
 open index.html
 
