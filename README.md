@@ -49,15 +49,18 @@ Run Open index.html in any modern browser, and the interactive environment will 
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot![Screenshot (9)](https://github.com/user-attachments/assets/75d74296-c5f4-45f7-91c9-7ecd26959c12)
- 1 here with proper name)
-*Add caption explaining what this shows*
+Screenshot 1: Room Overview (https://github.com/user-attachments/assets/75d74296-c5f4-45f7-91c9-7ecd26959c12)
+ 
+Displays the main room with interactive temperature controls and the cat icon.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+Screenshot 2: Temperature Adjustment(https://github.com/user-attachments/assets/4c1ef58f-48c9-4d0f-9415-19a0d93f0e3e)
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+User adjusts the temperature, triggering a playful notification.
+
+
+Screenshot 3: Cat Interaction(https://github.com/user-attachments/assets/3ef874de-9574-4c2d-bcd6-8cfe93f481f9)
+
+Clicking on the cat icon displays a "Meow!" message below the icon.
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
